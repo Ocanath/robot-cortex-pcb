@@ -1,0 +1,5 @@
+Added Component: Designator=J3(DUAL_PADS)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=SWDIO Pin=J3-1
+Added Pin To Net: NetName=SWCLK Pin=J3-2
+Added Member To Class: ClassName=uC Member=Component J3 Header 2
