@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=V_BATT_HP Pin=Q1-3
+Removed Pin From Net: NetName=V_BATT_HP Pin=Q2-3
+Removed Pin From Net: NetName=EN_HP Pin=Q3-1
+Removed Pin From Net: NetName=GND Pin=Q3-2
+Removed Pin From Net: NetName=EN_HP Pin=Q4-1
+Removed Pin From Net: NetName=GND Pin=Q4-2
+Removed Pin From Net: NetName=3V3 Pin=Q5-S
+Removed Pin From Net: NetName=3V3 Pin=Q5-S
+Removed Pin From Net: NetName=3V3 Pin=Q5-S
+Removed Pin From Net: NetName=EN_3V3 Pin=Q6-1
+Removed Pin From Net: NetName=GND Pin=Q6-2
+Removed Pin From Net: NetName=V_BATT_HP Pin=R11-1
+Removed Pin From Net: NetName=V_BATT_HP Pin=R12-1
+Removed Pin From Net: NetName=3V3 Pin=R16-1
+Removed Member From Class: ClassName=power-management Member=Q1
+Removed Member From Class: ClassName=power-management Member=Q2
+Removed Member From Class: ClassName=power-management Member=Q3
+Removed Member From Class: ClassName=power-management Member=Q4
+Removed Member From Class: ClassName=power-management Member=Q5
+Removed Member From Class: ClassName=power-management Member=Q6
+Removed Member From Class: ClassName=power-management Member=R11
+Removed Member From Class: ClassName=power-management Member=R12
+Removed Member From Class: ClassName=power-management Member=R13
+Removed Member From Class: ClassName=power-management Member=R14
+Removed Member From Class: ClassName=power-management Member=R15
+Removed Member From Class: ClassName=power-management Member=R16
+Added Component: Designator=J4(DUAL_PADS)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J5(DUAL_PADS)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=I2C_SDA Pin=J4-1
+Added Pin To Net: NetName=I2C_SCL Pin=J4-2
+Added Pin To Net: NetName=UART_RX Pin=J5-1
+Added Pin To Net: NetName=UART_TX Pin=J5-2
+Added Member To Class: ClassName=uC Member=Component J4 Header 2
+Added Member To Class: ClassName=uC Member=Component J5 Header 2
