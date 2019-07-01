@@ -1,10 +1,15 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Ocanath\Google Drive\Projects\PCB\Altium\Projects\robot-cortex-pcb\pcb.PcbDoc
-Date     : 6/30/2019
-Time     : 4:11:29 PM
+Date     : 7/1/2019
+Time     : 12:46:10 AM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (Collision < 6mil) Between Pad J1-1(6255mil,2060mil) on Bottom Layer And Track (6335mil,1845mil)(6335mil,2530mil) on Keep-Out Layer 
+   Violation between Clearance Constraint: (Collision < 6mil) Between Pad J1-2(6255mil,2160mil) on Bottom Layer And Track (6335mil,1845mil)(6335mil,2530mil) on Keep-Out Layer 
+   Violation between Clearance Constraint: (Collision < 6mil) Between Pad J1-3(6255mil,2160mil) on Top Layer And Track (6335mil,1845mil)(6335mil,2530mil) on Keep-Out Layer 
+   Violation between Clearance Constraint: (Collision < 6mil) Between Pad J1-4(6255mil,1960mil) on Top Layer And Track (6335mil,1845mil)(6335mil,2530mil) on Keep-Out Layer 
+   Violation between Clearance Constraint: (Collision < 6mil) Between Pad J1-5(6255mil,1960mil) on Bottom Layer And Track (6335mil,1845mil)(6335mil,2530mil) on Keep-Out Layer 
+Rule Violations :5
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
@@ -43,6 +48,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 5
 Waived Violations : 0
 Time Elapsed        : 00:00:00

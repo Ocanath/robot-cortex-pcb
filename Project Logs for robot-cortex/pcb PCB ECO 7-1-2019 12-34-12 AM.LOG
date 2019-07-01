@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=MPU_SS Pin=U1-45
+Added Pin To Net: NetName=MPU_SS Pin=U1-24
