@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=GND Pin=C17-1
+Removed Pin From Net: NetName=3V3 Pin=C17-2
+Removed Pin From Net: NetName=GND Pin=C18-1
+Removed Pin From Net: NetName=V_BATT_LP Pin=C18-2
+Removed Pin From Net: NetName=GND Pin=C19-2
+Removed Pin From Net: NetName=GND Pin=J7-1
+Removed Pin From Net: NetName=V_BATT_LP Pin=J7-2
+Removed Pin From Net: NetName=GND Pin=J7-3
+Removed Pin From Net: NetName=GND Pin=J7-4
+Removed Pin From Net: NetName=3V3 Pin=R8-2
+Removed Pin From Net: NetName=3V3 Pin=R9-1
+Removed Pin From Net: NetName=GND Pin=R10-1
+Removed Pin From Net: NetName=V_BATT_LP Pin=U3-1
+Removed Pin From Net: NetName=V_BATT_LP Pin=U3-2
+Removed Pin From Net: NetName=GND Pin=U3-3
+Removed Pin From Net: NetName=3V3 Pin=U3-4
+Removed Pin From Net: NetName=3V3 Pin=U3-5
+Removed Pin From Net: NetName=GND Pin=U3-9
+Removed Member From Class: ClassName=power-management Member=C17
+Removed Member From Class: ClassName=power-management Member=C18
+Removed Member From Class: ClassName=power-management Member=C19
+Removed Member From Class: ClassName=power-management Member=J7
+Removed Member From Class: ClassName=power-management Member=R8
+Removed Member From Class: ClassName=power-management Member=R9
+Removed Member From Class: ClassName=power-management Member=R10
+Removed Member From Class: ClassName=power-management Member=U3
+Change Component Designator: OldDesignator=J? NewDesignator=J4
+Added Room: Name=cp2102
+Added Room: Name=mpu6500
+Added Room: Name=nrf24l01
+Added Room: Name=power-management
+Added Room: Name=uC
