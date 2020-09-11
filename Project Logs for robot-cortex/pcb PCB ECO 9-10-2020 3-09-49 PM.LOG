@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=V_HV_BATT Pin=J5-1
+Removed Member From Class: ClassName=power-management Member=J5
