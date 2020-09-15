@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=NRF_INT Pin=U1-4
+Removed Pin From Net: NetName=NRF_CE Pin=U1-33
+Removed Pin From Net: NetName=NRF_SS Pin=U1-34
+Added Pin To Net: NetName=NRF_INT Pin=U1-2
+Added Pin To Net: NetName=NRF_SS Pin=U1-4
+Added Pin To Net: NetName=NRF_CE Pin=U1-10
