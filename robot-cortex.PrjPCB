@@ -174,24 +174,29 @@ GenerateClassCluster=0
 DocumentUniqueId=HXHQQNIW
 
 [ProjectVariant1]
-UniqueID=75FA7347-3A49-4117-9B24-84470D3C02D5
-Description=Has Power Stage
-AllowFabrication=0
-ParameterCount=1
-VariationCount=1
-Variation1=Designator=0 Ohm|UniqueId=\RREQFJLE|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[Parameter2_1]
-Name=POWER-MANAGEMENT
-Value=
-
-[ProjectVariant2]
 UniqueID=B5C22C80-CCB1-46CF-9D65-27CAEF5CFEB9
 Description=No Power Stage (Simple)
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=9
+Variation1=Designator=C18|UniqueId=\JQIUEKLP|Kind=1|AlternatePart= 
+Variation2=Designator=M2|UniqueId=\QMIVNKCR|Kind=1|AlternatePart= 
+Variation3=Designator=D2|UniqueId=\QBUHOQPE|Kind=1|AlternatePart= 
+Variation4=Designator=Q1|UniqueId=\ZEQAQALL|Kind=1|AlternatePart= 
+Variation5=Designator=D1|UniqueId=\IKLJNHCE|Kind=1|AlternatePart= 
+Variation6=Designator=M1|UniqueId=\CMBTFAZR|Kind=1|AlternatePart= 
+Variation7=Designator=U8|UniqueId=\LYXPWZEC|Kind=1|AlternatePart= 
+Variation8=Designator=R2|UniqueId=\QZTGREYS|Kind=1|AlternatePart= 
+Variation9=Designator=R20|UniqueId=\XMBSARLA|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=A8CD62C3-47B7-421A-972A-FA755E2E43D0
+Description=Has Power Management
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=0 Ohm|UniqueId=\RREQFJLE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -497,6 +502,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
