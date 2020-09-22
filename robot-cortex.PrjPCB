@@ -173,6 +173,27 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HXHQQNIW
 
+[ProjectVariant1]
+UniqueID=75FA7347-3A49-4117-9B24-84470D3C02D5
+Description=Has Power Stage
+AllowFabrication=0
+ParameterCount=1
+VariationCount=1
+Variation1=Designator=0 Ohm|UniqueId=\RREQFJLE|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[Parameter2_1]
+Name=POWER-MANAGEMENT
+Value=
+
+[ProjectVariant2]
+UniqueID=B5C22C80-CCB1-46CF-9D65-27CAEF5CFEB9
+Description=No Power Stage (Simple)
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for robot-cortex\Design Rule Check - pcb.html
 DItemRevisionGUID=
