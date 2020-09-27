@@ -1,0 +1,17 @@
+Replace Part C8 C0402-1.5pF in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with C0402-1.5pF from robot-cortex.SchLib
+Replace Part C9 C0402-1.0pF in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with C0402-1.0pF from robot-cortex.SchLib
+Replace Part C10 C0402-33nF in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with C0402-33nF from robot-cortex.SchLib
+Replace Part C11 C0402-10nF in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with C0402-10nF from robot-cortex.SchLib
+Replace Part C12 C0402-1nF in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with C0402-1nF from robot-cortex.SchLib
+Replace Part C13 C0402-2.2nF in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with C0402-2.2nF from robot-cortex.SchLib
+Replace Part C14 C0402-4.7pF in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with C0402-4.7pF from robot-cortex.SchLib
+Replace Part C15 C0402-20pF in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with C0402-20pF from robot-cortex.SchLib
+Replace Part C16 C0402-20pF in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with C0402-20pF from robot-cortex.SchLib
+Replace Part J1 CONREVSMA003.062 in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with CONREVSMA003.062 from robot-cortex.SchLib
+Replace Part L1 L0402-3.9nH in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with L0402-3.9nH from robot-cortex.SchLib
+Replace Part L2 L0402-8.2nH in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with L0402-8.2nH from robot-cortex.SchLib
+Replace Part L3 L0402-2.7nH in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with L0402-2.7nH from robot-cortex.SchLib
+Replace Part R6 R-22k-0402 in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with R-22k-0402 from robot-cortex.SchLib
+Replace Part R7 R-1M-0402 in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with R-1M-0402 from robot-cortex.SchLib
+Replace Part U2 NRF24L01 in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with NRF24L01 from robot-cortex.SchLib
+Replace Part Y2 NDK Crystal NX3225SA in D:\OcanathProj\PCB\robot-cortex-pcb\nrf24l01.SchDoc with NDK Crystal NX3225SA from robot-cortex.SchLib

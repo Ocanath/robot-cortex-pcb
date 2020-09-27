@@ -1,32 +1,13 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [robot-cortex.PrjPCB]
-   Generated File[pcb.GTO]
-   Generated File[pcb.GTP]
-   Generated File[pcb.GTS]
-   Generated File[pcb.GTL]
-   Generated File[pcb.G1]
-   Generated File[pcb.GBL]
-   Generated File[pcb.GBS]
-   Generated File[pcb.GBP]
-   Generated File[pcb.GBO]
-   Generated File[pcb.GM1]
-   Generated File[pcb.GM2]
-   Generated File[pcb.GM8]
-   Generated File[pcb.GM12]
-   Generated File[pcb.GM13]
-   Generated File[pcb.GM15]
-   Generated File[pcb.GKO]
-   Generated File[pcb.GPT]
-   Generated File[pcb.GPB]
-   Generated File[pcb.GD1]
-   Generated File[pcb.GG1]
-   Generated File[pcb.RUL]
-   Generated File[pcb.EXTREP]
-   Generated File[pcb.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [robot-cortex.PrjPCB]
+   Generated File[pcb-RoundHoles-Plated.TXT]
+   Generated File[pcb-SlotHoles-Plated.TXT]
+   Generated File[pcb.LDP]
+   Generated File[pcb.DRR]
 
 
-Files Generated   : 23
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 6:27:42 PM On 6/9/2020
+Finished Output Generation At 1:55:35 PM On 9/27/2020

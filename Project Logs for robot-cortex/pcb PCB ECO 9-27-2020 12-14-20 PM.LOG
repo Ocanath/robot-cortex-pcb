@@ -1,0 +1,132 @@
+Change Component Comment : Designator=C9 Old Comment=1.0pF New Comment=1.0pF 0402
+Change Component Comment : Designator=C8 Old Comment=1.5pF New Comment=1.5pF 0402
+Change Component Comment : Designator=R7 Old Comment=1M New Comment=1M 0402
+Change Component Comment : Designator=C12 Old Comment=1nF New Comment=1nF 0402
+Change Component Comment : Designator=C13 Old Comment=2.2nF New Comment=2.2nF 0402
+Change Component Comment : Designator=R11 Old Comment=2k New Comment=2k 0402
+Change Component Comment : Designator=C14 Old Comment=4.7pF New Comment=4.7pF 0402
+Change Component Comment : Designator=C2 Old Comment=4.7uF New Comment=4.7uF 0603
+Change Component Comment : Designator=C3 Old Comment=4.7uF New Comment=4.7uF 0603
+Change Component Comment : Designator=C4 Old Comment=4.7uF New Comment=4.7uF 0603
+Change Component Comment : Designator=C20 Old Comment=4.7uF New Comment=4.7uF 0603
+Change Component Comment : Designator=C21 Old Comment=4.7uF New Comment=4.7uF 0603
+Change Component Comment : Designator=R2 Old Comment=10k New Comment=10k 0402
+Change Component Comment : Designator=R9 Old Comment=10k New Comment=10k 0402
+Change Component Comment : Designator=R10 Old Comment=10k New Comment=10k 0402
+Change Component Comment : Designator=R14 Old Comment=10k New Comment=10k 0402
+Change Component Comment : Designator=R15 Old Comment=10k New Comment=10k 0402
+Change Component Comment : Designator=R16 Old Comment=10k New Comment=10k 0402
+Change Component Comment : Designator=R17 Old Comment=10k New Comment=10k 0402
+Change Component Comment : Designator=R18 Old Comment=10k New Comment=10k 0402
+Change Component Comment : Designator=R20 Old Comment=10k New Comment=10k 0402
+Change Component Comment : Designator=C11 Old Comment=10nF New Comment=10nF 0402
+Change Component Comment : Designator=C17 Old Comment=10uF New Comment=10uF 0603
+Change Component Comment : Designator=C18 Old Comment=10uF New Comment=10uF 0603
+Change Component Comment : Designator=C19 Old Comment=10uF New Comment=10uF 0603
+Change Component Comment : Designator=C27 Old Comment=10uF New Comment=10uF 0603
+Change Component Comment : Designator=C29 Old Comment=10uF New Comment=10uF 0603
+Change Component Comment : Designator=C15 Old Comment=20pF New Comment=20pF 0402
+Change Component Comment : Designator=C16 Old Comment=20pF New Comment=20pF 0402
+Change Component Comment : Designator=R6 Old Comment=22k New Comment=22k 0402
+Change Component Comment : Designator=C10 Old Comment=33nF New Comment=33nF 0402
+Change Component Comment : Designator=R8 Old Comment=100 New Comment=100 0402
+Change Component Comment : Designator=R13 Old Comment=100k New Comment=100k 0402
+Change Component Comment : Designator=C1 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=C5 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=C6 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=C7 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=C22 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=C23 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=C24 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=C25 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=C26 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=C28 Old Comment=100nF New Comment=100nF 0402
+Change Component Comment : Designator=R1 Old Comment=120 New Comment=120 0402
+Change Component Comment : Designator=R3 Old Comment=470 New Comment=470 0402
+Change Component Comment : Designator=R4 Old Comment=470 New Comment=470 0402
+Change Component Comment : Designator=R5 Old Comment=470 New Comment=470 0402
+Change Component Comment : Designator=R12 Old Comment=470 New Comment=470 0402
+Change Component Comment : Designator=R19 Old Comment=470 New Comment=470 0402
+Change Component Comment : Designator=R21 Old Comment=470 New Comment=470 0402
+Change Component Comment : Designator=0 Ohm Old Comment=Bypass Power Stage New Comment=Jumper
+Change component parameters: Designator = "C8" ("C8"); Footprint = "C0402"; UniqueID = "\SQQFSRQW" ("\SQQFSRQW")
+Change component parameters: Designator = "C9" ("C9"); Footprint = "C0402"; UniqueID = "\OWOATPBD" ("\OWOATPBD")
+Change component parameters: Designator = "C13" ("C13"); Footprint = "C0402"; UniqueID = "\YQHUMNJD" ("\YQHUMNJD")
+Change component parameters: Designator = "C14" ("C14"); Footprint = "C0402"; UniqueID = "\MQMQTKXC" ("\MQMQTKXC")
+Change component parameters: Designator = "C15" ("C15"); Footprint = "C0402"; UniqueID = "\NTTSRTIK" ("\NTTSRTIK")
+Change component parameters: Designator = "C16" ("C16"); Footprint = "C0402"; UniqueID = "\MKEXWWFT" ("\MKEXWWFT")
+Change component parameters: Designator = "R8" ("R8"); Footprint = "R0402"; UniqueID = "\IPJSNZHP" ("\IPJSNZHP")
+Change component parameters: Designator = "L1" ("L1"); Footprint = "L0402"; UniqueID = "\RFBTRVFG" ("\RFBTRVFG")
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://search.murata.co.jp/Ceramy/image/img/P02/partnumberingAT_LQ3E.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://search.murata.co.jp/Ceramy/image/img/P02/partnumberingAT_LQ3E.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "http://uk.rs-online.com/webdocs/0f10/0900766b80f10808.pdf?src-supplier=RSComponents"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://uk.rs-online.com/webdocs/0f10/0900766b80f10808.pdf?src-supplier=RSComponents"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0083LQG15HN.pdf?src-supplier=Avnet+Europe"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0083LQG15HN.pdf?src-supplier=Avnet+Europe"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "http://www.farnell.com/datasheets/66026.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "http://www.farnell.com/datasheets/66026.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Core Material"; Value = "Air"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "300mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Current"; Value = "300mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DC Resistance (DCR)"; Value = "190mR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Description 1"; Value = "FIXED IND 3.9NH 700MA 190 MOHM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.02inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.022inch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Inductance"; Value = "3.9nH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "LQG15HN3N9S02D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max DC Current"; Value = "300mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "10000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing"; Value = "1=0.1, 10=0.061, 100=0.0404, 500=0.03366, 1000=0.02827, 2500=0.02423 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Q Factor"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Self Resonant Frequency"; Value = "6GHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock"; Value = "35032"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "490-1079-6-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Test Frequency"; Value = "100MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.02inch"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C1" ("C1"); Footprint = "C0402"; UniqueID = "\WMNIAQSD" ("\WMNIAQSD")
+Change component parameters: Designator = "C5" ("C5"); Footprint = "C0402"; UniqueID = "\LOYFAGIG" ("\LOYFAGIG")
+Change component parameters: Designator = "C6" ("C6"); Footprint = "C0402"; UniqueID = "\LKFBBBLL" ("\LKFBBBLL")
+Change component parameters: Designator = "C7" ("C7"); Footprint = "C0402"; UniqueID = "\UQKOEBQS" ("\UQKOEBQS")
+Change component parameters: Designator = "C22" ("C22"); Footprint = "C0402"; UniqueID = "\GAIMVJKL" ("\GAIMVJKL")
+Change component parameters: Designator = "C23" ("C23"); Footprint = "C0402"; UniqueID = "\BQJGTDUG" ("\BQJGTDUG")
+Change component parameters: Designator = "C24" ("C24"); Footprint = "C0402"; UniqueID = "\HLTTAKOK" ("\HLTTAKOK")
+Change component parameters: Designator = "C25" ("C25"); Footprint = "C0402"; UniqueID = "\XPNDWVPV" ("\XPNDWVPV")
+Change component parameters: Designator = "C26" ("C26"); Footprint = "C0402"; UniqueID = "\TXFKYVRR" ("\TXFKYVRR")
+Change component parameters: Designator = "C28" ("C28"); Footprint = "C0402"; UniqueID = "\CEAEXEDH" ("\CEAEXEDH")
+Change component parameters: Designator = "C17" ("C17"); Footprint = "C0603"; UniqueID = "\XSQOPLMJ" ("\XSQOPLMJ")
+Change component parameters: Designator = "C18" ("C18"); Footprint = "C0603"; UniqueID = "\JQIUEKLP" ("\JQIUEKLP")
+Change component parameters: Designator = "C19" ("C19"); Footprint = "C0603"; UniqueID = "\WDVQENQT" ("\WDVQENQT")
+Change component parameters: Designator = "C27" ("C27"); Footprint = "C0603"; UniqueID = "\GCBBXHCF" ("\GCBBXHCF")
+Change component parameters: Designator = "C29" ("C29"); Footprint = "C0603"; UniqueID = "\DLRFGPLC" ("\DLRFGPLC")
+Change component parameters: Designator = "C10" ("C10"); Footprint = "C0402"; UniqueID = "\HORLDPYR" ("\HORLDPYR")
+Change component parameters: Designator = "R13" ("R13"); Footprint = "R0402"; UniqueID = "\AKNQRSLK" ("\AKNQRSLK")
+Change component parameters: Designator = "R1" ("R1"); Footprint = "R0402"; UniqueID = "\QDXKVRCL" ("\QDXKVRCL")
+Change component parameters: Designator = "R2" ("R2"); Footprint = "R0402"; UniqueID = "\QZTGREYS" ("\QZTGREYS")
+Change component parameters: Designator = "R9" ("R9"); Footprint = "R0402"; UniqueID = "\HJNJDCVW" ("\HJNJDCVW")
+Change component parameters: Designator = "R10" ("R10"); Footprint = "R0402"; UniqueID = "\IHAONDDT" ("\IHAONDDT")
+Change component parameters: Designator = "R11" ("R11"); Footprint = "R0402"; UniqueID = "\JTGXJEHU" ("\JTGXJEHU")
+Change component parameters: Designator = "R14" ("R14"); Footprint = "R0402"; UniqueID = "\KVFCKPIV" ("\KVFCKPIV")
+Change component parameters: Designator = "R15" ("R15"); Footprint = "R0402"; UniqueID = "\JHOYCOZZ" ("\JHOYCOZZ")
+Change component parameters: Designator = "R16" ("R16"); Footprint = "R0402"; UniqueID = "\FYWOLHTM" ("\FYWOLHTM")
+Change component parameters: Designator = "R17" ("R17"); Footprint = "R0402"; UniqueID = "\JHTWLBQH" ("\JHTWLBQH")
+Change component parameters: Designator = "R18" ("R18"); Footprint = "R0402"; UniqueID = "\KXJAXWBY" ("\KXJAXWBY")
+Change component parameters: Designator = "R20" ("R20"); Footprint = "R0402"; UniqueID = "\XMBSARLA" ("\XMBSARLA")
+Change component parameters: Designator = "R6" ("R6"); Footprint = "R0402"; UniqueID = "\SOFMTGPG" ("\SOFMTGPG")
