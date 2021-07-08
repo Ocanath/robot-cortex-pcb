@@ -23,11 +23,14 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
+AutoSheetNumbering=0
+AutoCrossReferences=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
+IsProjectConflictPreventionWarningsEnabled=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -140,23 +143,6 @@ GenerateClassCluster=0
 DocumentUniqueId=AMBTWNCX
 
 [Document7]
-DocumentPath=pcb.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HXHQQNIW
-
-[Document8]
 DocumentPath=CC1101-CC1190.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +159,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PPQUTHJO
 
-[Document9]
+[Document8]
 DocumentPath=RLC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +176,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PSKMTUDC
 
-[Document10]
+[Document9]
 DocumentPath=RLC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -206,6 +192,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XSEOSTGH
+
+[Document10]
+DocumentPath=nrf52-coprocessor.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VKCJRKEU
+
+[Document11]
+DocumentPath=pcb.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HXHQQNIW
 
 [ProjectVariant1]
 UniqueID=B5C22C80-CCB1-46CF-9D65-27CAEF5CFEB9
@@ -436,7 +456,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1275,6 +1295,8 @@ MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
+Type124=1
+Type125=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1323,10 +1345,16 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=robot-cortex.SchLib
-ComponentDesignItemID0=B39921B3726U410
-ComponentSymbolReference0=B39921B3726U410
+ComponentDesignItemID0=CC1101
+ComponentSymbolReference0=CC1101
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=robot-cortex.SchLib
+ComponentDesignItemID1=CC1190
+ComponentSymbolReference1=CC1190
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1340,91 +1368,14 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Bandwidth
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Case/Package
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Category
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Comment
+ParameterName3=Library Reference
 ParameterUpdate3=1
-ParameterName4=Component Kind
-ParameterUpdate4=1
-ParameterName5=ComponentLink1Description
-ParameterUpdate5=1
-ParameterName6=ComponentLink1URL
-ParameterUpdate6=1
-ParameterName7=ComponentLink2Description
-ParameterUpdate7=1
-ParameterName8=ComponentLink2URL
-ParameterUpdate8=1
-ParameterName9=ComponentLink3Description
-ParameterUpdate9=1
-ParameterName10=ComponentLink3URL
-ParameterUpdate10=1
-ParameterName11=ComponentLink4Description
-ParameterUpdate11=1
-ParameterName12=ComponentLink4URL
-ParameterUpdate12=1
-ParameterName13=ComponentLink5Description
-ParameterUpdate13=1
-ParameterName14=ComponentLink5URL
-ParameterUpdate14=1
-ParameterName15=Description
-ParameterUpdate15=1
-ParameterName16=Frequency
-ParameterUpdate16=1
-ParameterName17=Height
-ParameterUpdate17=1
-ParameterName18=Impedance
-ParameterUpdate18=1
-ParameterName19=Insertion Loss
-ParameterUpdate19=1
-ParameterName20=Lead Free
-ParameterUpdate20=1
-ParameterName21=Length
-ParameterUpdate21=1
-ParameterName22=Library Reference
-ParameterUpdate22=1
-ParameterName23=Load Impedance
-ParameterUpdate23=1
-ParameterName24=Manufacturer
-ParameterUpdate24=1
-ParameterName25=Manufacturer Part Number
-ParameterUpdate25=1
-ParameterName26=Max Operating Temperature
-ParameterUpdate26=1
-ParameterName27=Min Operating Temperature
-ParameterUpdate27=1
-ParameterName28=Mount
-ParameterUpdate28=1
-ParameterName29=Number of Pins
-ParameterUpdate29=1
-ParameterName30=Package Quantity
-ParameterUpdate30=1
-ParameterName31=Packaging
-ParameterUpdate31=1
-ParameterName32=Radiation Hardening
-ParameterUpdate32=1
-ParameterName33=Ratings
-ParameterUpdate33=1
-ParameterName34=RoHS
-ParameterUpdate34=1
-ParameterName35=Series
-ParameterUpdate35=1
-ParameterName36=Supplier 1
-ParameterUpdate36=1
-ParameterName37=Supplier Part Number 1
-ParameterUpdate37=1
-ParameterName38=Termination
-ParameterUpdate38=1
-ParameterName39=Width
-ParameterUpdate39=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=DCC6C
-ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1433,12 +1384,12 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
