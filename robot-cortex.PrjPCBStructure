@@ -1,5 +1,6 @@
 Record=TopLevelDocument|FileName=CC1101-CC1190.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=CC1101-CC1190.SchDoc|FileName=cp2102.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=CC1101-CC1190.SchDoc|FileName=mpu6500.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=CC1101-CC1190.SchDoc|FileName=nrf52-coprocessor.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=CC1101-CC1190.SchDoc|FileName=power-management.SchDoc|SheetNumber= 
 Record=NoMainPathDocument|SourceDocument=CC1101-CC1190.SchDoc|FileName=uC.SchDoc|SheetNumber= 
