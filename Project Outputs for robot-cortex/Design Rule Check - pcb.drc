@@ -1,142 +1,24 @@
 Protel Design System Design Rule Check
 PCB File : D:\OcanathProj\PCB\robot-cortex-pcb\pcb.PcbDoc
-Date     : 5/24/2021
-Time     : 11:44:16 AM
+Date     : 8/3/2021
+Time     : 10:08:20 PM
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
-   Violation between Clearance Constraint: (1.615mil < 6mil) Between Pad C10-2(287.379mil,1350.504mil) on Top Layer And Pad U2-32(265.094mil,1346.622mil) on Top Layer 
-   Violation between Clearance Constraint: (1.972mil < 6mil) Between Pad C10-2(287.379mil,1350.504mil) on Top Layer And Pad U2-33(265.094mil,1362.37mil) on Top Layer 
-Rule Violations :2
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net NetC31_1 Between Arc (-584.662mil,15.378mil) on Top Layer And Pad C31-1(-563.748mil,62.509mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Arc (-633.09mil,162.204mil) on Top Layer And Pad C63-2(39.011mil,299.323mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC10_1 Between Pad U2-35(265.094mil,1393.866mil) on Top Layer And Pad C10-1(318.875mil,1350.504mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC10_1 Between Pad C10-1(318.875mil,1350.504mil) on Top Layer And Pad Y2-3(334.385mil,1011.252mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C10-2(287.379mil,1350.504mil) on Top Layer And Pad C11-1(421mil,1296.354mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-31(265.094mil,1330.874mil) on Top Layer And Pad C10-2(287.379mil,1350.504mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C11-1(421mil,1296.354mil) on Top Layer And Pad C12-2(481mil,1343.378mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC11_2 Between Pad U2-46(90.882mil,1442.094mil) on Top Layer And Pad C11-2(421mil,1355.409mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC12_1 Between Pad U2-34(265.094mil,1378.118mil) on Top Layer And Pad C12-1(481mil,1311.882mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC12_1 Between Pad Y2-1(421mil,1074.244mil) on Top Layer And Pad C12-1(481mil,1311.882mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C12-2(481mil,1343.378mil) on Top Layer And Pad C8-1(536.472mil,1265.937mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C13-1(451mil,1172mil) on Top Layer And Pad C14-1(521.945mil,1172mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C13-1(451mil,1172mil) on Top Layer And Pad C15-1(476mil,1057mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC13_2 Between Pad U2-37(232.614mil,1442.094mil) on Top Layer And Pad C13-2(451mil,1140.504mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C14-1(521.945mil,1172mil) on Top Layer And Pad C8-1(536.472mil,1265.937mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C14-1(521.945mil,1172mil) on Top Layer And Pad J1-2(705.07mil,1167.504mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC14_2 Between Pad U2-38(216.866mil,1442.094mil) on Top Layer And Pad C14-2(521.945mil,1140.504mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C15-1(476mil,1057mil) on Top Layer And Pad C62-2(489.011mil,299.323mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad Y2-4(421mil,1011.252mil) on Top Layer And Pad C15-1(476mil,1057mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC15_2 Between Pad U2-1(26.906mil,1409.614mil) on Top Layer And Pad C15-2(476mil,1025.504mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC16_1 Between Pad U2-33(265.094mil,1362.37mil) on Top Layer And Pad C16-1(281mil,1025.504mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C16-2(281mil,1057mil) on Top Layer And Pad Y2-2(334.385mil,1074.244mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C29-2(-1812.085mil,297.85mil) on Top Layer And Pad J4-4(-1720.472mil,313.601mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetC30_1 Between Pad C30-1(-532.252mil,-114.234mil) on Top Layer And Pad Y1-1(-515.242mil,-71.236mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC32_1 Between Pad C32-1(899.011mil,-437.173mil) on Top Layer And Pad L5-1(1350.066mil,-400.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C32-2(899.011mil,-405.677mil) on Top Layer And Pad C55-2(959.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C60-1(729.011mil,-366.173mil) on Top Layer And Pad C32-2(899.011mil,-405.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC33_1 Between Pad C33-1(1129.011mil,-437.173mil) on Top Layer And Pad L5-2(1381.956mil,-400.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC33_1 Between Pad R23-1(662.011mil,-429.189mil) on Top Layer And Pad C33-1(1129.011mil,-437.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C33-2(1129.011mil,-405.677mil) on Top Layer And Pad C56-2(1189.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C34-1(7090.011mil,-366.173mil) on Top Layer And Pad C35-1(7320.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C42-1(6698.011mil,-401.953mil) on Top Layer And Pad C34-1(7090.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C34-2(7090.011mil,-334.677mil) on Top Layer And Pad C35-2(7320.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad L7-1(6910.066mil,-329.425mil) on Top Layer And Pad C34-2(7090.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C35-1(7320.011mil,-366.173mil) on Top Layer And Pad C36-1(7550.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C35-2(7320.011mil,-334.677mil) on Top Layer And Pad C36-2(7550.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C36-1(7550.011mil,-366.173mil) on Top Layer And Pad C37-1(7780.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C36-2(7550.011mil,-334.677mil) on Top Layer And Pad C37-2(7780.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C37-1(7780.011mil,-366.173mil) on Top Layer And Pad C38-1(8010.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C37-2(7780.011mil,-334.677mil) on Top Layer And Pad C38-2(8010.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C38-1(8010.011mil,-366.173mil) on Top Layer And Pad C39-1(8240.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C38-2(8010.011mil,-334.677mil) on Top Layer And Pad C39-2(8240.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C39-1(8240.011mil,-366.173mil) on Top Layer And Pad C40-1(8470.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C39-2(8240.011mil,-334.677mil) on Top Layer And Pad C40-2(8470.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C63-2(39.011mil,299.323mil) on Top Layer And Pad C41-1(6479.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C41-1(6479.011mil,-366.173mil) on Top Layer And Pad L7-1(6910.066mil,-329.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C41-2(6479.011mil,-334.677mil) on Top Layer And Pad C42-1(6698.011mil,-401.953mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C43-2(6249.011mil,-334.677mil) on Top Layer And Pad C41-2(6479.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC33_1 Between Pad C43-1(6249.011mil,-366.173mil) on Top Layer And Pad C42-2(6698.011mil,-342.898mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC33_1 Between Pad C42-2(6698.011mil,-342.898mil) on Top Layer And Pad L7-2(6941.956mil,-329.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC33_1 Between Pad C45-1(6019.011mil,-366.173mil) on Top Layer And Pad C43-1(6249.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C45-2(6019.011mil,-334.677mil) on Top Layer And Pad C43-2(6249.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC33_1 Between Pad C44-1(5789.011mil,-366.173mil) on Top Layer And Pad C45-1(6019.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC33_1 Between Pad L8-2(5669.176mil,-337.425mil) on Top Layer And Pad C44-1(5789.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C44-2(5789.011mil,-334.677mil) on Top Layer And Pad C45-2(6019.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C46-1(5389.011mil,-366.173mil) on Top Layer And Pad C44-2(5789.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U12-4(4626.255mil,-331.316mil) on Top Layer And Pad C46-1(5389.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC46_2 Between Pad L9-2(4781.956mil,-329.425mil) on Top Layer And Pad C46-2(5389.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC47_1 Between Pad C47-1(4929.011mil,-366.173mil) on Top Layer And Pad C48-1(5159.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC48_2 Between Pad L11-2(3441.011mil,-327.48mil) on Top Layer And Pad C48-2(5159.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC49_1 Between Pad L10-2(4082.011mil,-327.48mil) on Top Layer And Pad C49-1(4309.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC49_1 Between Pad C49-1(4309.011mil,-366.173mil) on Top Layer And Pad L9-1(4750.066mil,-329.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC49_2 Between Pad C52-1(2998.011mil,-366.173mil) on Top Layer And Pad C49-2(4309.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC50_1 Between Pad L12-2(3221.011mil,-327.48mil) on Top Layer And Pad C50-1(3648.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC49_1 Between Pad C50-2(3648.011mil,-334.677mil) on Top Layer And Pad L10-2(4082.011mil,-327.48mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC51_1 Between Pad C51-1(3878.011mil,-366.173mil) on Top Layer And Pad L8-1(5614.846mil,-337.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC51_2 Between Pad L11-1(3441.011mil,-359.37mil) on Top Layer And Pad C51-2(3878.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC49_2 Between Pad L13-2(2771.011mil,-327.48mil) on Top Layer And Pad C52-1(2998.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC52_2 Between Pad C52-2(2998.011mil,-334.677mil) on Top Layer And Pad U12-2(4579.011mil,-419.716mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC53_1 Between Pad L6-1(30.066mil,-400.425mil) on Top Layer And Pad C53-1(2547.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC53_1 Between Pad C53-1(2547.011mil,-366.173mil) on Top Layer And Pad U12-5(4578.483mil,-331.316mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C54-1(2317.011mil,-366.173mil) on Top Layer And Pad C53-2(2547.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C53-2(2547.011mil,-334.677mil) on Top Layer And Pad U12-6(4531.767mil,-331.316mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad Y3-2(2200.318mil,-414.921mil) on Top Layer And Pad C54-1(2317.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC50_1 Between Pad C54-2(2317.011mil,-334.677mil) on Top Layer And Pad L13-1(2771.011mil,-359.37mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC51_2 Between Pad C55-1(959.011mil,-366.173mil) on Top Layer And Pad L14-1(1643.011mil,-359.37mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C55-2(959.011mil,-334.677mil) on Top Layer And Pad C56-2(1189.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C55-2(959.011mil,-334.677mil) on Top Layer And Pad J14-2(961.011mil,-68.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC56_1 Between Pad C56-1(1189.011mil,-366.173mil) on Top Layer And Pad L14-2(1643.011mil,-327.48mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C56-2(1189.011mil,-334.677mil) on Top Layer And Pad C57-2(1420.011mil,-334.677mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net ANTENNA Between Pad J1-1(705.07mil,1267.504mil) on Top Layer And Pad C57-1(1420.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net ANTENNA Between Pad C57-1(1420.011mil,-366.173mil) on Top Layer And Pad L15-2(1863.011mil,-327.48mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C57-2(1420.011mil,-334.677mil) on Top Layer And Pad Y3-4(2113.704mil,-351.929mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C58-1(39.011mil,-366.173mil) on Top Layer And Pad R24-1(202.011mil,-429.189mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (-166mil,-177mil) from Top Layer to Bottom Layer And Pad C58-1(39.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC58_2 Between Pad C58-2(39.011mil,-334.677mil) on Top Layer And Pad Y3-1(2113.704mil,-414.921mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R24-1(202.011mil,-429.189mil) on Top Layer And Pad C59-1(269.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C59-1(269.011mil,-366.173mil) on Top Layer And Pad R25-1(492.011mil,-358.189mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC59_2 Between Pad C59-2(269.011mil,-334.677mil) on Top Layer And Pad Y3-3(2200.318mil,-351.929mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad R25-1(492.011mil,-358.189mil) on Top Layer And Pad C60-1(729.011mil,-366.173mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC61_1 Between Pad U2-32(265.094mil,1346.622mil) on Top Layer And Pad C61-1(1100.011mil,267.827mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J14-3(961.011mil,-68.425mil) on Bottom Layer And Pad C61-2(1100.011mil,299.323mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC62_1 Between Pad L1-1(440mil,1242mil) on Top Layer And Pad C62-1(489.011mil,267.827mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C63-1(39.011mil,267.827mil) on Top Layer And Pad C62-2(489.011mil,299.323mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (-350.394mil,205.449mil) from Top Layer to Bottom Layer And Pad C63-1(39.011mil,267.827mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C63-2(39.011mil,299.323mil) on Top Layer And Pad U2-13(59.386mil,1203.906mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C8-1(536.472mil,1265.937mil) on Top Layer And Pad C9-1(581.748mil,1300.504mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C9-2(581.748mil,1332mil) on Top Layer And Pad C8-2(595.528mil,1265.937mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad C9-1(581.748mil,1300.504mil) on Top Layer And Pad J1-5(705.07mil,1367.504mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U2-36(265.094mil,1409.614mil) on Top Layer And Pad C9-2(581.748mil,1332mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-2(705.07mil,1167.504mil) on Top Layer And Pad J1-3(705.07mil,1167.504mil) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J1-5(705.07mil,1367.504mil) on Top Layer And Pad J1-4(705.07mil,1367.504mil) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net NetJ14_1 Between Pad L1-2(471.89mil,1242mil) on Top Layer And Pad J14-1(861.011mil,-68.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J14-2(961.011mil,-68.425mil) on Top Layer And Pad J14-3(961.011mil,-68.425mil) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J14-4(761.011mil,-68.425mil) on Bottom Layer And Pad J14-3(961.011mil,-68.425mil) on Bottom Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad J14-4(761.011mil,-68.425mil) on Bottom Layer And Pad J14-5(761.011mil,-68.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetJ15_1 Between Pad U2-26(265.094mil,1252.134mil) on Top Layer And Pad J15-1(273.011mil,193.575mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetJ15_2 Between Pad U2-25(265.094mil,1236.386mil) on Top Layer And Pad J15-2(273.011mil,293.575mil) on Multi-Layer 
-   Violation between Un-Routed Net Constraint: Net NetC62_1 Between Pad U2-30(265.094mil,1315.126mil) on Top Layer And Pad L1-1(440mil,1242mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC51_2 Between Pad L14-1(1643.011mil,-359.37mil) on Top Layer And Pad L11-1(3441.011mil,-359.37mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC50_1 Between Pad L13-1(2771.011mil,-359.37mil) on Top Layer And Pad L12-2(3221.011mil,-327.48mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC56_1 Between Pad L14-2(1643.011mil,-327.48mil) on Top Layer And Pad L15-1(1863.011mil,-359.37mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC33_1 Between Pad L5-2(1381.956mil,-400.425mil) on Top Layer And Pad L8-2(5669.176mil,-337.425mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net NetC33_1 Between Pad R22-1(432.011mil,-429.189mil) on Top Layer And Pad R23-1(662.011mil,-429.189mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U12-1(4531.767mil,-405.425mil) on Top Layer And Pad U12-6(4531.767mil,-331.316mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U12-3(4626.255mil,-419.716mil) on Top Layer And Pad U12-4(4626.255mil,-331.316mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U12-6(4531.767mil,-331.316mil) on Top Layer And Pad U12-4(4626.255mil,-331.316mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U2-13(59.386mil,1203.906mil) on Top Layer And Pad U2-48(59.386mil,1442.094mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-49(146mil,1323mil) on Top Layer And Pad U2-31(265.094mil,1330.874mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad U2-48(59.386mil,1442.094mil) on Top Layer And Pad U2-36(265.094mil,1409.614mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad U2-45(106.63mil,1442.094mil) on Top Layer And Pad U2-49(146mil,1323mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad Y2-2(334.385mil,1074.244mil) on Top Layer And Pad Y2-4(421mil,1011.252mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad Y3-4(2113.704mil,-351.929mil) on Top Layer And Pad Y3-2(2200.318mil,-414.921mil) on Top Layer 
-   Violation between Un-Routed Net Constraint: Net GND Between Via (-422.455mil,-333.66mil) from Top Layer to Bottom Layer And Via (-166mil,-177mil) from Top Layer to Bottom Layer 
-Rule Violations :124
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C19-1(-1793.379mil,-488.32mil) on Top Layer And Pad C17-1(-1742.198mil,-488.32mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C35-2(-957mil,-311.748mil) on Top Layer And Pad C5-1(-925.197mil,-311.024mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3V3 Between Pad C38-2(301.496mil,406mil) on Top Layer And Via (350mil,383mil) from Top Layer to Bottom Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad C58-1(-296.134mil,-412.536mil) on Top Layer And Pad Y3-4(-243.622mil,-393.709mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad U5-2(-1927.807mil,32.299mil) on Top Layer And Pad R11-2(-1781.609mil,50.091mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R16-2(-1959.745mil,289.831mil) on Top Layer And Pad U9-3(-1946.922mil,255.998mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Pad R5-2(-1300.281mil,-6.279mil) on Top Layer And Pad R4-2(-1300.281mil,28.721mil) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net GND Between Via (-595mil,-114.234mil) from Top Layer to Bottom Layer And Pad Y1-4(-578.235mil,-71.236mil) on Top Layer 
+Rule Violations :8
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -163,107 +45,12 @@ Processing Rule : Silk to Silk (Clearance=10mil) (Disabled)(All),(All)
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Arc (-581.042mil,-99.134mil) on Top Layer 
-   Violation between Net Antennae: Arc (-581.042mil,-99.134mil) on Top Layer 
-   Violation between Net Antennae: Arc (-889.242mil,200.113mil) on Top Layer 
-   Violation between Net Antennae: Arc (-905.631mil,216.26mil) on Top Layer 
-   Violation between Net Antennae: Arc (-920.729mil,217.218mil) on Top Layer 
-   Violation between Net Antennae: Track (-601.992mil,-81.374mil)(-581.042mil,-81.374mil) on Bottom Layer 
-   Violation between Net Antennae: Track (-694.268mil,-52.197mil)(-596.79mil,-52.197mil) on Bottom Layer 
-   Violation between Net Antennae: Track (-700.767mil,-23.553mil)(-592.391mil,-23.553mil) on Bottom Layer 
-   Violation between Net Antennae: Via (-166mil,-177mil) from Top Layer to Bottom Layer 
-Rule Violations :9
-
-Processing Rule : Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management'))
-   Violation between Room Definition: Between Component J7-53261-0271 (-1895.827mil,-268mil) on Bottom Layer And Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) 
-   Violation between Room Definition: Between Component SW1-EVQ-P7A01P (-1872.119mil,396.692mil) on Top Layer And Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) 
-   Violation between Room Definition: Between Component U3-TPS63001DRCR (-1651.089mil,-374.666mil) on Top Layer And Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) 
-   Violation between Room Definition: Between Component U5-MCP73831 (-1875.642mil,32.299mil) on Top Layer And Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) 
-   Violation between Room Definition: Between Component U8-SN74LVC1G80DCK (-1976.455mil,-281.627mil) on Top Layer And Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) 
-   Violation between Room Definition: Between Component U9-SN74LVC1G17 (-1909.52mil,205.801mil) on Top Layer And Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component 0 Ohm-Jumper (-1736.762mil,-368.51mil) on Bottom Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component C17-10uF 0603 (-1742.198mil,-458.792mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component C18-10uF 0603 (-1795.353mil,-72.965mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component C19-10uF 0603 (-1793.379mil,-458.792mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component C20-4.7uF 0603 (-1585.144mil,-74.803mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component C21-4.7uF 0603 (-1925.274mil,-181.233mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component C27-10uF 0603 (-1547.322mil,-289.501mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component C28-100nF 0402 (-1754mil,-370mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component C29-10uF 0603 (-1841.613mil,297.85mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component D1-NSR0530HT1G (-1799.29mil,-128.083mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component D2-NSR0530HT1G (-1537.134mil,-151.706mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component L4-2.2uH (-1519.763mil,-394.351mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component LED3-LED WHITE 0603 (-1790.432mil,152.875mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component LED4-LED WHITE 0603 (-1997.773mil,175.805mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component Q1-n-mos low power (-1909.52mil,-396.784mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R10-10k 0402 (-1477.908mil,-70.507mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R11-2k 0402 (-1781.609mil,64.855mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R12-470 0402 (-1924.114mil,113.569mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R13-100k 0402 (-582.205mil,210.254mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R14-10k 0402 (-582.205mil,151.199mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R15-10k 0402 (-1909.52mil,305.762mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R16-10k 0402 (-1959.745mil,304.595mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R20-10k 0402 (-1993.436mil,-216.549mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R2-10k 0402 (-1553.582mil,-242.853mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R21-470 0402 (-1997.773mil,257.235mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R8-100 0402 (-1733.548mil,-320.532mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SMT Small Component R9-10k 0402 (-1477.908mil,-128.998mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SOIC Component M1-CSD25402Q3A (-1663.884mil,-204.73mil) on Top Layer 
-   Violation between Room Definition: Between Room power-management (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('power-management')) And SOIC Component M2-CSD25402Q3A (-1828.818mil,-259.509mil) on Top Layer 
-Rule Violations :35
-
-Processing Rule : Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC'))
-   Violation between Room Definition: Between Component J2-53261-0271 (-1454.637mil,251.077mil) on Bottom Layer And Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) 
-   Violation between Room Definition: Between Component Y1-16MHz 8pf (-546.739mil,-27.929mil) on Top Layer And Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) 
-   Violation between Room Definition: Between LCC Component U1-STM32F730R8T6 (-897.632mil,58.163mil) on Top Layer And Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And Small Component J10-PAD-SINGLE (-1150mil,-350mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And Small Component J11-PAD-SINGLE (-1250mil,-350mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And Small Component J12-PAD-SINGLE (-933.071mil,413.386mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And Small Component J13-PAD-SINGLE (-1055.118mil,413.386mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And Small Component J3-Header 2 (-1208.104mil,-179.475mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And Small Component J5-PAD-SINGLE (-1100mil,-425mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And Small Component J6-PAD-SINGLE (-1200mil,-425mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And Small Component J9-PAD-SINGLE (-1050mil,-350mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT SIP Component J8-SMD connector 4pos (-753.711mil,-326.302mil) on Bottom Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C1-100nF 0402 (-633.09mil,46.244mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C2-4.7uF 0603 (-1045.27mil,333.286mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C25-100nF 0402 (-622.16mil,135.525mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C26-100nF 0402 (-773.105mil,320.526mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C30-20pF 0402 (-548mil,-114.234mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C31-20pF 0402 (-548mil,62.509mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C3-4.7uF 0603 (-1148.104mil,278.636mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C4-4.7uF 0603 (-683.105mil,-169.475mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C5-100nF 0402 (-925.197mil,-295.276mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C6-100nF 0402 (-1163.104mil,-90.222mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component C7-100nF 0402 (-1143.104mil,320.526mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component R1-120 0402 (-799.945mil,-273.842mil) on Bottom Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component R3-470 0402 (-1285.517mil,63.721mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component R4-470 0402 (-1285.517mil,28.721mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SMT Small Component R5-470 0402 (-1285.517mil,-6.279mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SOIC Component LED1-MSL0402RGBU (-1210.517mil,28.721mil) on Top Layer 
-   Violation between Room Definition: Between Room uC (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('uC')) And SOIC Component U7-TCAN332DR (-800.734mil,-355.255mil) on Top Layer 
-Rule Violations :29
-
-Processing Rule : Room mpu6500 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('mpu6500'))
-   Violation between Room Definition: Between LCC Component U6-MPU-6500 (-1354.991mil,-186.745mil) on Top Layer And Room mpu6500 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('mpu6500')) 
-   Violation between Room Definition: Between Room mpu6500 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('mpu6500')) And SMT Small Component C22-100nF 0402 (-1409.361mil,-277.69mil) on Top Layer 
-   Violation between Room Definition: Between Room mpu6500 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('mpu6500')) And SMT Small Component C23-100nF 0402 (-1409.361mil,-312.375mil) on Top Layer 
-   Violation between Room Definition: Between Room mpu6500 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('mpu6500')) And SMT Small Component C24-100nF 0402 (-1329.361mil,-293.438mil) on Top Layer 
-Rule Violations :4
-
-Processing Rule : Room cp2102 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('cp2102'))
-   Violation between Room Definition: Between Component J4-0483930003 (-1720.472mil,175.805mil) on Bottom Layer And Room cp2102 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('cp2102')) 
-   Violation between Room Definition: Between LCC Component U4-CP2102-GM (-1468.229mil,175.805mil) on Top Layer And Room cp2102 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('cp2102')) 
-   Violation between Room Definition: Between Room cp2102 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('cp2102')) And SMT Small Component LED2-LED WHITE 0603 (-1393.517mil,4.618mil) on Top Layer 
-   Violation between Room Definition: Between Room cp2102 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('cp2102')) And SMT Small Component R17-10k 0402 (-1501.496mil,21.519mil) on Top Layer 
-   Violation between Room Definition: Between Room cp2102 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('cp2102')) And SMT Small Component R18-10k 0402 (-1460.368mil,23.107mil) on Top Layer 
-   Violation between Room Definition: Between Room cp2102 (Bounding Region = (0mil, 0mil, 2000mil, 1000mil) (InComponentClass('cp2102')) And SMT Small Component R19-470 0402 (-1348.754mil,52.896mil) on Top Layer 
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 209
+Violations Detected : 8
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
