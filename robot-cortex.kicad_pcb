@@ -140,6 +140,8 @@
   (net 62 "unconnected-(U5-SUSPEND-Pad17)")
   (net 63 "unconnected-(U5-~{CTS}-Pad18)")
   (net 64 "/VBAT")
+  (net 65 "unconnected-(U5-NC-Pad10)")
+  (net 66 "unconnected-(U5-NC-Pad16)")
 
   (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 10e5bdee-30ac-41ae-84fb-6935b06c20a7)
@@ -1026,7 +1028,7 @@
     (pad "9" smd roundrect (at -0.25 1.935 90) (size 0.84 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03)
       (net 9 "Net-(U5-~{RST})") (pinfunction "~{RST}") (pintype "bidirectional") (solder_mask_margin 0.102) (tstamp a4e52882-7083-470a-a3a4-2b4aa3ff5a58))
     (pad "10" smd roundrect (at 0.25 1.935 90) (size 0.84 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03)
-      (solder_mask_margin 0.102) (tstamp f55b4526-31f4-4125-b652-eaa9bb66c644))
+      (net 65 "unconnected-(U5-NC-Pad10)") (pinfunction "NC") (pintype "no_connect") (solder_mask_margin 0.102) (tstamp f55b4526-31f4-4125-b652-eaa9bb66c644))
     (pad "11" smd roundrect (at 0.75 1.935 90) (size 0.84 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03)
       (net 54 "unconnected-(U5-GPIO.3{slash}WAKEUP-Pad11)") (pinfunction "GPIO.3/WAKEUP") (pintype "bidirectional+no_connect") (solder_mask_margin 0.102) (tstamp ef082f5f-1728-4b4a-a56c-a3f3b989db7c))
     (pad "12" smd roundrect (at 1.25 1.935 90) (size 0.84 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03)
@@ -1038,7 +1040,7 @@
     (pad "15" smd roundrect (at 1.935 0.25) (size 0.84 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03)
       (net 61 "unconnected-(U5-SUSPENDB-Pad15)") (pinfunction "SUSPENDB") (pintype "output+no_connect") (solder_mask_margin 0.102) (tstamp 9248eb26-7930-4b90-b405-32b3a3428eaa))
     (pad "16" smd roundrect (at 1.935 -0.25) (size 0.84 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03)
-      (solder_mask_margin 0.102) (tstamp 7853df2a-79be-4847-b67f-f09fe7a9b8f8))
+      (net 66 "unconnected-(U5-NC-Pad16)") (pinfunction "NC") (pintype "no_connect") (solder_mask_margin 0.102) (tstamp 7853df2a-79be-4847-b67f-f09fe7a9b8f8))
     (pad "17" smd roundrect (at 1.935 -0.75) (size 0.84 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03)
       (net 62 "unconnected-(U5-SUSPEND-Pad17)") (pinfunction "SUSPEND") (pintype "output+no_connect") (solder_mask_margin 0.102) (tstamp 9fd7f0d0-8abf-48fc-9425-85e0c40521be))
     (pad "18" smd roundrect (at 1.935 -1.25) (size 0.84 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.03)
@@ -1286,7 +1288,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a3a2e936-a95d-47aa-8695-e9c0cf254a6c)
     )
-    (fp_text value "NPN" (at 0 2.4) (layer "F.Fab") hide
+    (fp_text value "SS8050-G" (at 0 2.4) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 90716538-1d58-4f17-b3be-d3226c587e6b)
     )
@@ -1309,9 +1311,9 @@
     (pad "1" smd roundrect (at -1.2 -0.95) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "Net-(Q2-B)") (pinfunction "B") (pintype "input") (solder_mask_margin 0.0508) (tstamp a20599e7-4a80-4cde-9f05-7168518c8e97))
     (pad "2" smd roundrect (at -1.2 0.95) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 31 "/IO0") (pinfunction "C") (pintype "open_collector") (solder_mask_margin 0.0508) (tstamp aed17cd6-ca48-4906-b9f1-e3bcbdf79f79))
+      (net 3 "/DTR") (pinfunction "E") (pintype "open_emitter") (solder_mask_margin 0.0508) (tstamp aed17cd6-ca48-4906-b9f1-e3bcbdf79f79))
     (pad "3" smd roundrect (at 1.2 0) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 3 "/DTR") (pinfunction "E") (pintype "open_emitter") (solder_mask_margin 0.0508) (tstamp c31bacde-c8b0-4cb6-b2d5-5889a494615a))
+      (net 31 "/IO0") (pinfunction "C") (pintype "open_collector") (solder_mask_margin 0.0508) (tstamp c31bacde-c8b0-4cb6-b2d5-5889a494615a))
     (model "${KIPRJMOD}/3dModels/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1409,7 +1411,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5cb4d8f8-cc35-4e60-bf0b-59341f21ec4b)
     )
-    (fp_text value "NPN" (at 0 2.4) (layer "F.Fab") hide
+    (fp_text value "SS8050-G" (at 0 2.4) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d4c9078e-ff26-4446-8c8f-6196db55e959)
     )
@@ -1432,9 +1434,9 @@
     (pad "1" smd roundrect (at -1.2 -0.95) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "Net-(Q1-B)") (pinfunction "B") (pintype "input") (solder_mask_margin 0.0508) (tstamp a42cbaca-7869-4e96-9d84-889918f38404))
     (pad "2" smd roundrect (at -1.2 0.95) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 14 "/EN") (pinfunction "C") (pintype "open_collector") (solder_mask_margin 0.0508) (tstamp 7251f391-94d6-4eff-8b4d-b8f12fef8a75))
+      (net 5 "/RTS") (pinfunction "E") (pintype "open_emitter") (solder_mask_margin 0.0508) (tstamp 7251f391-94d6-4eff-8b4d-b8f12fef8a75))
     (pad "3" smd roundrect (at 1.2 0) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 5 "/RTS") (pinfunction "E") (pintype "open_emitter") (solder_mask_margin 0.0508) (tstamp 6b1b8154-664b-49d1-b44a-dd685ff180e8))
+      (net 14 "/EN") (pinfunction "C") (pintype "open_collector") (solder_mask_margin 0.0508) (tstamp 6b1b8154-664b-49d1-b44a-dd685ff180e8))
     (model "${KIPRJMOD}/3dModels/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
