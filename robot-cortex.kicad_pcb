@@ -247,7 +247,7 @@
 
   (footprint "robot-cortex:TEARDROP" (layer "F.Cu")
     (tstamp 030948ff-614c-4e87-a385-43bf62eb1fb5)
-    (at 191.2 78.4)
+    (at 130.393 48.067)
     (property "Sheetfile" "robot-cortex.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
@@ -271,7 +271,7 @@
 
   (footprint "robot-cortex:LED_0603_1608Metric" (layer "F.Cu")
     (tstamp 0a513291-5b6b-46b8-8695-204a9df82415)
-    (at 97.24 66.97)
+    (at 123.298 51.032)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -323,7 +323,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 0e3add0c-8254-4d61-89a6-be4825d0610a)
-    (at 28.77 82.35)
+    (at 31.11 83.29)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -381,7 +381,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 0f51eeef-8f7d-4ce9-a9db-9be558567651)
-    (at 27.87 69.33)
+    (at 30.675 68.74)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -700,7 +700,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 19ae5c18-d66d-474c-ba90-1250cd595800)
-    (at 78.06 48.5)
+    (at 132.853 35.827)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -852,7 +852,7 @@
 
   (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 295f7dd2-4606-46b4-bee4-f03b4c04d09b)
-    (at 75.31 43.86)
+    (at 187.185 96.31)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -910,7 +910,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 2af48262-8a3e-4934-b011-48167c950fc1)
-    (at 54.52 60.06)
+    (at 67.48 110.39)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -968,7 +968,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 2ba9f0fb-6776-45a7-b267-4d829173bf2c)
-    (at 54.52 58.16)
+    (at 132.853 41.347)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -1014,7 +1014,7 @@
 
   (footprint "robot-cortex:L_1210_3225Metric" (layer "F.Cu")
     (tstamp 2e49f9dc-cbe5-4fb2-8840-f5e19ee9ce53)
-    (at 32.525 84.205 -90)
+    (at 34.865 85.145 -90)
     (descr "Inductor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "MPN" "ETQ-P3M3R3KVP")
@@ -1067,7 +1067,7 @@
 
   (footprint "robot-cortex:VQFN-TPS63070" (layer "F.Cu")
     (tstamp 2e510f6e-90ee-491f-bb47-00bcf786620c)
-    (at 31.47 74.79)
+    (at 34.275 74.2)
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
     (property "Sheetname" "PSU_TPS63070RNMR1")
     (property "ki_description" "Buck Boost 2-16V input 2-9V Output")
@@ -1240,7 +1240,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 2f0b0309-1300-4a14-afac-1f77f1cc633d)
-    (at 34.52 73.51)
+    (at 37.325 72.92)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -1286,7 +1286,7 @@
 
   (footprint "robot-cortex:SOT-23-5" (layer "F.Cu")
     (tstamp 30b35e8b-9a1d-4cc8-ba2d-e1896e5374fa)
-    (at 61.633 96.647)
+    (at 68.28 107.39)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -1409,7 +1409,7 @@
 
   (footprint "robot-cortex:D_SOD-923" (layer "F.Cu")
     (tstamp 322be619-6735-4703-9cbb-7545ca1c43f0)
-    (at 49.31 60.17 -90)
+    (at 179.86 95.27 -90)
     (descr "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4")
     (tags "Diode SOD923")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -1493,7 +1493,7 @@
 
   (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 3398ccd0-8daa-4b06-bc84-13beb5af4a5f)
-    (at 82.8 78.55)
+    (at 39.035 68.61)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -1551,7 +1551,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 3a28de07-228f-4864-b921-ffce8e4dfd55)
-    (at 27.87 75.03)
+    (at 30.675 74.44)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -1668,7 +1668,7 @@
 
   (footprint "robot-cortex:SOIC8-TLE5009" (layer "F.Cu")
     (tstamp 413037c4-41d2-4266-a1e1-092e70503db2)
-    (at 80.237 42.433)
+    (at 125.088 46.627)
     (property "Sheetfile" "robot-cortex.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "CAN Transceiver")
@@ -1727,7 +1727,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 43beb0db-f914-4940-b3c6-f0259bb2538c)
-    (at 54.12 55.52)
+    (at 135.603 39.717)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -1785,7 +1785,7 @@
 
   (footprint "robot-cortex:VQFN-TPS63070" (layer "F.Cu")
     (tstamp 449b1e59-5d88-4a8f-8bea-e0f7b4fb7a5e)
-    (at 32.37 89.21)
+    (at 34.71 90.15)
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
     (property "Sheetname" "PSU_TPS63070RNMR")
     (property "ki_description" "Buck Boost 2-16V input 2-9V Output")
@@ -1958,7 +1958,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 4585c37e-ea2c-43ea-83e8-1d583395300d)
-    (at 92.703 94.067)
+    (at 70.23 112.2)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -2004,7 +2004,7 @@
 
   (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 490ea96a-008e-4730-9c44-c166a0f9f868)
-    (at 75.31 42.22)
+    (at 187.185 94.67)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -2062,7 +2062,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 4a36cb46-7a26-4699-a163-59d24387441f)
-    (at 35.42 87.93)
+    (at 37.76 88.87)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -2108,7 +2108,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 4a38faa5-b3fc-48ab-bb85-ec50ec941cd0)
-    (at 27.87 76.93)
+    (at 30.675 76.34)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -2166,7 +2166,7 @@
 
   (footprint "robot-cortex:L_1210_3225Metric" (layer "F.Cu")
     (tstamp 4c74bc45-b82c-439a-9f4a-2716c5c90944)
-    (at 32.325 70.485)
+    (at 35.13 69.895)
     (descr "Inductor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "MPN" "ETQ-P3M3R3KVP")
@@ -2219,7 +2219,7 @@
 
   (footprint "robot-cortex:LQFP48-STM32" (layer "F.Cu")
     (tstamp 5321a747-4c35-4e09-aee1-49e9e5f5a815)
-    (at 95.665 53.225 -90)
+    (at 126.503 38.317 -90)
     (property "MPN" "STM32G431CBT6")
     (property "Sheetfile" "robot-cortex.kicad_sch")
     (property "Sheetname" "")
@@ -2356,7 +2356,7 @@
 
   (footprint "robot-cortex:DF52-4S-0.8H(21)" (layer "F.Cu")
     (tstamp 57162525-8676-4cae-944b-dce9e91aebb1)
-    (at 64.93 42.675)
+    (at 135.32 44.6)
     (property "Sheetfile" "robot-cortex.kicad_sch")
     (property "Sheetname" "")
     (path "/301f5418-e3c2-484f-9065-7272cfdfcfbb")
@@ -2455,7 +2455,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 5943c534-5568-4cf9-8928-bebde2e88f6b)
-    (at 92.703 92.227)
+    (at 70.23 110.36)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -2560,7 +2560,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 5e609770-20cc-4f54-8612-659337354861)
-    (at 35.42 89.77)
+    (at 37.76 90.71)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -2606,7 +2606,7 @@
 
   (footprint "robot-cortex:GCT_USB4110GFA" (layer "F.Cu")
     (tstamp 62a56c18-f439-4bd9-a267-7df47bc8146b)
-    (at 176.95 92.5575)
+    (at 183.91 86.8)
     (property "Availability" "In Stock")
     (property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole")
     (property "MF" "GCT")
@@ -2698,7 +2698,7 @@
 
   (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 6414c7f1-a597-4b97-ba24-5d5d14b11299)
-    (at 82.8 80.19)
+    (at 39.035 70.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -2756,7 +2756,7 @@
 
   (footprint "robot-cortex:SOD2512X110N" (layer "F.Cu")
     (tstamp 6d9da962-ff45-4114-83ba-c12a277973cb)
-    (at 97.24 68.92)
+    (at 36.63 56.77)
     (descr "SOD-323 - case 477-02 - issue H")
     (tags "Diode")
     (property "Arrow Part Number" "NSR0530HT1G")
@@ -3142,7 +3142,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 775f2e57-4083-457e-897a-aec8a3155275)
-    (at 28.77 89.95)
+    (at 31.11 90.89)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -3248,7 +3248,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 7da0a2a4-4ad4-4cc0-a9e6-90d29fee0a93)
-    (at 78.06 46.6)
+    (at 132.853 33.987)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -3294,7 +3294,7 @@
 
   (footprint "robot-cortex:TEARDROP" (layer "F.Cu")
     (tstamp 80d128e2-0d0d-4b46-ad2b-abf449fbc0d0)
-    (at 187.33 78.06)
+    (at 130.393 45.067)
     (property "Sheetfile" "robot-cortex.kicad_sch")
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
@@ -3318,7 +3318,7 @@
 
   (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
     (tstamp 83d641bf-0d6e-4562-b447-d4d56cb4bcca)
-    (at 108.703 97.417)
+    (at 38.07 83.16)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -3435,7 +3435,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 914af78b-44b9-4ca8-83e0-a26b7ed00dc6)
-    (at 28.77 86.15)
+    (at 31.11 87.09)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -3493,7 +3493,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp 95d638b4-842a-436e-9add-907604b54558)
-    (at 68.38 58.09)
+    (at 132.853 39.507)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -3539,7 +3539,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 96067f30-8a29-40d7-8884-6d36442de39e)
-    (at 80.81 48.41)
+    (at 184.435 94.8)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -3597,7 +3597,7 @@
 
   (footprint "robot-cortex:D_SOD-923" (layer "F.Cu")
     (tstamp 9742587a-951e-4f3f-bf3f-8d4e9186eb06)
-    (at 73.98 57.51 -90)
+    (at 177.91 95.27 -90)
     (descr "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4")
     (tags "Diode SOD923")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -3799,7 +3799,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp abeb5a63-901f-49ef-ab35-50c72c076bac)
-    (at 67.83 59.96)
+    (at 132.853 37.667)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -3845,7 +3845,7 @@
 
   (footprint "robot-cortex:ECS-1633-480-BN-TR" (layer "F.Cu")
     (tstamp aed98e88-f3a3-4888-89cc-eda21703982b)
-    (at 49.597 53.993)
+    (at 135.503 42.017)
     (property "LCSC MPN2" "C2901617")
     (property "MPN" "ECS-1633-480-BN-TR")
     (property "MPN2" "SX1M48.000M10F30TNN")
@@ -3883,7 +3883,7 @@
 
   (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
     (tstamp bacba2e2-f0ef-4feb-9201-04b5e02d20b7)
-    (at 68.99 53.49)
+    (at 38.07 84.8)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -3941,7 +3941,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp bddb492c-9da2-408e-8b90-79e55ec7ef48)
-    (at 68.38 56.19)
+    (at 135.603 37.817)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -3999,7 +3999,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp c375b150-bfb3-4102-911e-81a9bd447636)
-    (at 28.77 88.05)
+    (at 31.11 88.99)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -4057,7 +4057,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp c9a25a01-031c-463a-a385-6a4f270a9770)
-    (at 95.453 92.257)
+    (at 67.48 112.29)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -4168,7 +4168,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp d3392901-d760-44b4-8c88-0813c77f399c)
-    (at 80.81 46.57)
+    (at 135.603 34.017)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -4226,7 +4226,7 @@
 
   (footprint "robot-cortex:D_SOD-923" (layer "F.Cu")
     (tstamp d4095feb-e294-4bf7-b167-6c61f6083ec7)
-    (at 51.85 60.57 -90)
+    (at 181.81 95.27 -90)
     (descr "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4")
     (tags "Diode SOD923")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -4310,7 +4310,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp d629d0b4-31dc-4111-b983-e1ab4fa91783)
-    (at 27.87 71.23)
+    (at 30.675 70.64)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -4458,7 +4458,7 @@
 
   (footprint "robot-cortex:DF52-3S-0.8H(21)" (layer "F.Cu")
     (tstamp dc0a0128-5359-4551-9904-6736f98c6d9a)
-    (at 109.153 95.247)
+    (at 134.893 48.817)
     (property "Sheetfile" "robot-cortex.kicad_sch")
     (property "Sheetname" "")
     (path "/78eeb5c9-081c-4bd9-9c2f-f91fe783f4bb")
@@ -4494,7 +4494,7 @@
 
   (footprint "robot-cortex:C_0402_1005Metric" (layer "F.Cu")
     (tstamp de6a1a09-de02-4152-aeaf-4efff912fe82)
-    (at 34.52 75.35)
+    (at 37.325 74.76)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -4540,7 +4540,7 @@
 
   (footprint "robot-cortex:R_0402_1005Metric" (layer "F.Cu")
     (tstamp def1b034-1677-4ffb-88f3-431792a23138)
-    (at 75.31 45.5)
+    (at 126.153 50.557)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
@@ -4598,7 +4598,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp e2e721ae-a154-4f1c-b877-9ca3d36a3ce1)
-    (at 27.87 73.13)
+    (at 30.675 72.54)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -4656,7 +4656,7 @@
 
   (footprint "robot-cortex:SOD2512X110N" (layer "F.Cu")
     (tstamp e3bb8601-357b-44cd-ab82-e5cd3f89d565)
-    (at 97.24 70.87)
+    (at 36.63 58.72)
     (descr "SOD-323 - case 477-02 - issue H")
     (tags "Diode")
     (property "Arrow Part Number" "NSR0530HT1G")
@@ -4718,7 +4718,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp ef60db10-b6a6-4641-9d61-0597b3b9871f)
-    (at 28.77 84.25)
+    (at 31.11 85.19)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "PSU_TPS63070RNMR.kicad_sch")
@@ -4776,7 +4776,7 @@
 
   (footprint "robot-cortex:C_0603_1608Metric" (layer "F.Cu")
     (tstamp efea0d9b-a201-4f2f-aa96-2c5526634452)
-    (at 73.62 53.61)
+    (at 135.603 35.917)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "robot-cortex.kicad_sch")
