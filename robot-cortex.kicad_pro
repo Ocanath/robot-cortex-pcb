@@ -479,8 +479,12 @@
       "ESP32"
     ],
     [
-      "2757805a-b362-411e-a4a6-92c934b4db34",
-      "3V3-Supply"
+      "957a9604-35b3-4788-b08c-3ca047cc62dc",
+      "PSU_TPS63070RNMR1"
+    ],
+    [
+      "66225d13-410c-4182-8e7e-33506c71e2e4",
+      "PSU_TPS63070RNMR"
     ]
   ],
   "text_variables": {}

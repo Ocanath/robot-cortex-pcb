@@ -668,7 +668,7 @@
           (reference "R4") (unit 1)
         )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "R5") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -677,7 +677,7 @@
   (symbol (lib_id "HAND_PCB_V11-altium-import:GND") (at 144.78 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1899b600-7bec-4427-9024-1fd876b27979)
-    (property "Reference" "#PWR015" (at 144.78 101.6 0)
+    (property "Reference" "#PWR044" (at 144.78 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 107.95 0)
@@ -693,7 +693,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
@@ -707,7 +707,7 @@
   (symbol (lib_id "SamacSys_Parts:NSR0530HT1G") (at 144.78 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19092030-b634-448a-ba70-ae302f41ef57)
-    (property "Reference" "D1" (at 148.844 91.44 90)
+    (property "Reference" "D7" (at 148.844 91.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NSR0530HT1G" (at 139.7 88.392 0)
@@ -745,7 +745,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "D1") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
@@ -759,7 +759,7 @@
   (symbol (lib_id "HAND_PCB_V11-altium-import:GND") (at 185.42 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 514a98e1-8080-4cd0-a742-44a63d9c2e2e)
-    (property "Reference" "#PWR019" (at 185.42 107.95 0)
+    (property "Reference" "#PWR048" (at 185.42 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 114.3 0)
@@ -775,7 +775,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
@@ -789,7 +789,7 @@
   (symbol (lib_id "HAND_PCB_V11-altium-import:GND") (at 160.02 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56b7c1fa-e08d-4f1a-a39c-e028b48d79de)
-    (property "Reference" "#PWR016" (at 160.02 105.41 0)
+    (property "Reference" "#PWR045" (at 160.02 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 111.76 0)
@@ -805,7 +805,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
@@ -819,7 +819,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 113.03 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57911dd6-d7db-4f04-8f47-985522ac6364)
-    (property "Reference" "C6" (at 112.776 71.501 0)
+    (property "Reference" "C22" (at 112.776 71.501 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "100nF" (at 115.316 71.501 0)
@@ -935,7 +935,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "C6") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
@@ -952,7 +952,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 168.91 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 585976bb-495b-4273-9ee8-59737d8e1dcb)
-    (property "Reference" "C7" (at 170.815 88.519 0)
+    (property "Reference" "C23" (at 170.815 88.519 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "4.7uF" (at 165.862 85.344 0)
@@ -1074,7 +1074,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "C7") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
@@ -1091,7 +1091,7 @@
   (symbol (lib_id "HAND_PCB_V11-altium-import:3v3") (at 172.72 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ec48c14-68f3-4b01-9697-2a9a651f7b9d)
-    (property "Reference" "#PWR018" (at 172.72 81.28 0)
+    (property "Reference" "#PWR046" (at 172.72 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3v3" (at 172.72 77.47 0)
@@ -1107,7 +1107,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
@@ -1121,7 +1121,7 @@
   (symbol (lib_id "HAND_PCB_V11-altium-import:GND") (at 95.25 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c54bba3a-46e2-494d-9aa0-07e554b8aa95)
-    (property "Reference" "#PWR03" (at 95.25 87.63 0)
+    (property "Reference" "#PWR043" (at 95.25 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 87.63 0)
@@ -1137,7 +1137,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
@@ -1151,7 +1151,7 @@
   (symbol (lib_id "HAND_PCB_V11-altium-import:GND") (at 172.72 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf4ac745-8adf-4725-844a-53643665c8b1)
-    (property "Reference" "#PWR017" (at 172.72 95.25 0)
+    (property "Reference" "#PWR047" (at 172.72 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 101.6 0)
@@ -1167,7 +1167,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
@@ -1237,7 +1237,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 176.53 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e898cd5c-9731-4111-80d6-bdbe270a61fa)
-    (property "Reference" "C8" (at 178.435 88.519 0)
+    (property "Reference" "C24" (at 178.435 88.519 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "4.7uF" (at 173.482 85.344 0)
@@ -1359,7 +1359,7 @@
     (instances
       (project "robot-cortex"
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/2757805a-b362-411e-a4a6-92c934b4db34"
-          (reference "C8") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
       (project "HAND_PCB_V11"
