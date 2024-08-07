@@ -1592,7 +1592,7 @@
   (symbol (lib_id "power:GND") (at 76.835 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 047f9da7-84fb-4b64-a743-6815d558acfe)
-    (property "Reference" "#PWR05" (at 76.835 46.99 0)
+    (property "Reference" "#PWR039" (at 76.835 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.835 45.085 0)
@@ -1607,9 +1607,6 @@
     (pin "1" (uuid 99f3d688-68fd-4578-b48c-efc703feac1e))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR039") (unit 1)
         )
@@ -1620,7 +1617,7 @@
   (symbol (lib_id "robot-cortex:Resistor") (at 253.365 34.29 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05048e8f-eacb-4e26-ac8b-48729f9547f0)
-    (property "Reference" "R3" (at 250.825 33.655 0)
+    (property "Reference" "R7" (at 250.825 33.655 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22k" (at 250.825 36.195 0)
@@ -1636,9 +1633,6 @@
     (pin "2" (uuid ce6d9d16-eacf-42c8-bf81-f01fddac5632))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "R3") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "R7") (unit 1)
         )
@@ -1649,7 +1643,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 29.21 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c710c23-558b-4770-97cd-0ff793803c3e)
-    (property "Reference" "C9" (at 31.75 44.45 0)
+    (property "Reference" "C15" (at 31.75 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 29.845 46.99 0)
@@ -1665,9 +1659,6 @@
     (pin "2" (uuid d9502e1b-5875-4448-bf8c-18810d551f25))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "C9") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "C15") (unit 1)
         )
@@ -1678,7 +1669,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 92.71 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c7f5f03-31e2-4ddb-bde0-7f36e595870a)
-    (property "Reference" "C1" (at 95.885 36.195 0)
+    (property "Reference" "C20" (at 95.885 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 95.885 38.735 0)
@@ -1694,9 +1685,6 @@
     (pin "2" (uuid 4ef9b4ec-a3fd-4ed7-95ab-7396b946bea9))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "C1") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "C20") (unit 1)
         )
@@ -1707,7 +1695,7 @@
   (symbol (lib_id "power:GND") (at 44.45 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f8de7aa-5655-4a06-8103-e99cd8ab5b05)
-    (property "Reference" "#PWR021" (at 44.45 46.355 0)
+    (property "Reference" "#PWR036" (at 44.45 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 44.45 0)
@@ -1722,9 +1710,6 @@
     (pin "1" (uuid b4375235-03a3-43e0-a2c4-633b994e077b))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR036") (unit 1)
         )
@@ -1735,7 +1720,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 104.14 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10ba7a3d-341c-423e-8164-00a8151201f6)
-    (property "Reference" "C2" (at 106.68 36.195 0)
+    (property "Reference" "C21" (at 106.68 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 104.775 38.735 0)
@@ -1751,9 +1736,6 @@
     (pin "2" (uuid de2a7b53-0322-4dbe-b8e3-ee7e6874cf5d))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "C2") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "C21") (unit 1)
         )
@@ -1764,7 +1746,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 57.15 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 151374b4-c5f7-41f1-be09-9e85d11226b7)
-    (property "Reference" "C11" (at 60.325 35.56 0)
+    (property "Reference" "C17" (at 60.325 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 60.325 38.1 0)
@@ -1780,9 +1762,6 @@
     (pin "2" (uuid cab965b2-1609-4090-b593-8fe3386b2190))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "C11") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "C17") (unit 1)
         )
@@ -1793,7 +1772,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 69.85 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c4eed77-52a2-44b6-82e6-9589d3bfe347)
-    (property "Reference" "C3" (at 73.025 36.195 0)
+    (property "Reference" "C18" (at 73.025 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 73.025 38.735 0)
@@ -1809,9 +1788,6 @@
     (pin "2" (uuid 31819c4e-5818-4a17-94e5-165619291848))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "C3") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "C18") (unit 1)
         )
@@ -1839,9 +1815,6 @@
     (pin "3" (uuid c64a1935-7836-4b40-a6b0-d5d896a4120e))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "Q2") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "Q2") (unit 1)
         )
@@ -1852,7 +1825,7 @@
   (symbol (lib_id "power:GND") (at 97.79 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41e02025-b010-4925-a3a1-497fbc72f5d8)
-    (property "Reference" "#PWR04" (at 97.79 46.99 0)
+    (property "Reference" "#PWR040" (at 97.79 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 45.085 0)
@@ -1867,9 +1840,6 @@
     (pin "1" (uuid 6bb53e70-94ce-4a56-b9bb-1768e3865435))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR040") (unit 1)
         )
@@ -1880,7 +1850,7 @@
   (symbol (lib_id "foc-pcb:LED") (at 93.345 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dbeb31c-5c0c-4693-830c-8d2fb845d45a)
-    (property "Reference" "D4" (at 94.2975 69.85 90)
+    (property "Reference" "D7" (at 94.2975 69.85 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "C84264" (at 96.8375 69.85 90)
@@ -1896,9 +1866,6 @@
     (pin "2" (uuid 27e72f07-6f56-423f-b583-5813f624ee40))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "D4") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "D7") (unit 1)
         )
@@ -1914,7 +1881,7 @@
   (symbol (lib_id "power:GND") (at 28.575 83.185 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f9e78ed-23df-47cb-a2ef-54dd19682b3f)
-    (property "Reference" "#PWR08" (at 28.575 89.535 0)
+    (property "Reference" "#PWR034" (at 28.575 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 28.575 87.63 0)
@@ -1929,9 +1896,6 @@
     (pin "1" (uuid 9d464f28-989c-41ee-a789-66fc8e05bbff))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR08") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR034") (unit 1)
         )
@@ -1958,9 +1922,6 @@
     (pin "2" (uuid 20cddb3d-ec14-4d22-89c2-d808cac47c1e))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "R9") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "R9") (unit 1)
         )
@@ -1971,7 +1932,7 @@
   (symbol (lib_id "power:GND") (at 108.585 73.66 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bb644d1-1ebd-4381-89e7-22d7b8a164ed)
-    (property "Reference" "#PWR03" (at 114.935 73.66 0)
+    (property "Reference" "#PWR044" (at 114.935 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.665 73.66 0)
@@ -1986,9 +1947,6 @@
     (pin "1" (uuid 926ee8ad-1eea-4722-9068-3e066b7d79bd))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR03") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR044") (unit 1)
         )
@@ -2021,9 +1979,6 @@
     (pin "3" (uuid 3e7a64d6-923d-4bea-b285-0965b5477f1d))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "Q1") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "Q1") (unit 1)
         )
@@ -2034,7 +1989,7 @@
   (symbol (lib_id "robot-cortex:CP2102N-A02-GQFN24R") (at 234.315 128.905 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 917b8275-01e4-4609-b5a4-8ef91021328c)
-    (property "Reference" "U5" (at 234.315 100.965 0)
+    (property "Reference" "U9" (at 234.315 100.965 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CP2102N-A02-GQFN24R" (at 234.315 103.505 0)
@@ -2184,9 +2139,6 @@
     (pin "16" (uuid 212c6f63-fe7d-41d8-a725-15245cee43a6))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "U5") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "U9") (unit 1)
         )
@@ -2197,7 +2149,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 44.45 36.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94cd3fb9-7376-422e-8932-19f18e6089f3)
-    (property "Reference" "C10" (at 47.625 35.56 0)
+    (property "Reference" "C16" (at 47.625 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uF" (at 47.625 38.1 0)
@@ -2213,9 +2165,6 @@
     (pin "2" (uuid 996b1801-fb7f-4cbe-a3c1-5bf7c07e6a15))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "C10") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "C16") (unit 1)
         )
@@ -2226,7 +2175,7 @@
   (symbol (lib_id "robot-cortex:Resistor") (at 226.695 69.215 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0c19520-48db-4ffa-8832-0f92996d5988)
-    (property "Reference" "R1" (at 226.695 67.31 90)
+    (property "Reference" "R6" (at 226.695 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 226.695 71.755 90)
@@ -2242,9 +2191,6 @@
     (pin "2" (uuid 7d9b9615-198e-4e85-8237-666a3e887cbe))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "R1") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "R6") (unit 1)
         )
@@ -2255,7 +2201,7 @@
   (symbol (lib_id "robot-cortex:Resistor") (at 253.365 44.45 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a57fb444-b39d-4bd4-b492-78b615fafd46)
-    (property "Reference" "R4" (at 250.4766 43.815 0)
+    (property "Reference" "R8" (at 250.4766 43.815 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47.5k" (at 250.4766 46.355 0)
@@ -2271,9 +2217,6 @@
     (pin "2" (uuid ee9a1f3b-6b86-46b1-8d8f-8ce34c772cb9))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "R4") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "R8") (unit 1)
         )
@@ -2284,7 +2227,7 @@
   (symbol (lib_id "robot-cortex:Resistor") (at 29.21 34.925 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a64a2edf-5cac-405c-a7c9-69b24db05990)
-    (property "Reference" "R6" (at 26.3216 34.29 0)
+    (property "Reference" "R4" (at 26.3216 34.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 26.3216 36.83 0)
@@ -2300,9 +2243,6 @@
     (pin "2" (uuid 26eb4d82-5fd9-44fb-837f-44c5898dccff))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "R6") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "R4") (unit 1)
         )
@@ -2313,7 +2253,7 @@
   (symbol (lib_id "power:GND") (at 257.175 153.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac13cdd7-6ca8-4d5b-9aa3-d7475eba5a3e)
-    (property "Reference" "#PWR014" (at 257.175 159.385 0)
+    (property "Reference" "#PWR042" (at 257.175 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 257.81 155.575 90)
@@ -2328,9 +2268,6 @@
     (pin "1" (uuid 6551252c-7db2-408f-a02f-9f2ad9bd1a76))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR014") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR042") (unit 1)
         )
@@ -2341,7 +2278,7 @@
   (symbol (lib_id "power:GND") (at 49.53 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0bab96a-e472-4f0d-9d13-bea58abcb832)
-    (property "Reference" "#PWR01" (at 49.53 130.175 0)
+    (property "Reference" "#PWR037" (at 49.53 130.175 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 128.27 0)
@@ -2356,9 +2293,6 @@
     (pin "1" (uuid 80145bd3-c0b9-4f56-a5b7-2245b7b6615b))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR037") (unit 1)
         )
@@ -2369,7 +2303,7 @@
   (symbol (lib_id "robot-cortex:ESP32-WROOM-32E-H4") (at 67.31 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1ab728d-e9e6-452b-885b-9fed6659f8f1)
-    (property "Reference" "U2" (at 67.31 60.325 0)
+    (property "Reference" "U8" (at 67.31 60.325 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ESP32-WROOM-32E-H4" (at 65.405 101.6 0)
@@ -2422,9 +2356,6 @@
     (pin "9" (uuid ac50f0bb-0b7a-4d2e-8764-10d3c9b967bf))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "U2") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "U8") (unit 1)
         )
@@ -2435,7 +2366,7 @@
   (symbol (lib_id "foc-pcb:Resistor") (at 103.505 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba81af37-051b-488a-8f11-611a42a70ef9)
-    (property "Reference" "R3" (at 104.14 71.12 0)
+    (property "Reference" "R17" (at 104.14 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470" (at 103.505 76.2 90)
@@ -2451,9 +2382,6 @@
     (pin "2" (uuid 4ca10d92-aa5d-4faf-8781-91f3ef0cad07))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "R3") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "R17") (unit 1)
         )
@@ -2469,7 +2397,7 @@
   (symbol (lib_id "power:GND") (at 32.385 169.545 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6771411-110a-459b-878b-2a5ac315928d)
-    (property "Reference" "#PWR01" (at 26.035 169.545 0)
+    (property "Reference" "#PWR035" (at 26.035 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 29.21 169.545 90)
@@ -2484,9 +2412,6 @@
     (pin "1" (uuid b7c40da8-6cab-4586-927c-6cbb90901403))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR035") (unit 1)
         )
@@ -2497,7 +2422,7 @@
   (symbol (lib_id "robot-cortex:Resistor") (at 226.06 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0cf3ea6-1ba7-4137-9ce8-c8c9aa5acda0)
-    (property "Reference" "R2" (at 226.06 80.645 90)
+    (property "Reference" "R5" (at 226.06 80.645 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 226.06 85.09 90)
@@ -2513,9 +2438,6 @@
     (pin "2" (uuid bdd8c619-7218-4289-9f62-1df515cb5f4d))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "R2") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "R5") (unit 1)
         )
@@ -2526,7 +2448,7 @@
   (symbol (lib_id "power:GND") (at 253.365 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d61226d0-226e-4aa8-8a69-cb89eccac89c)
-    (property "Reference" "#PWR02" (at 253.365 55.245 0)
+    (property "Reference" "#PWR041" (at 253.365 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 253.365 53.34 0)
@@ -2541,9 +2463,6 @@
     (pin "1" (uuid 1c2fe9ca-682d-4dff-ab00-47b722f65639))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR041") (unit 1)
         )
@@ -2554,7 +2473,7 @@
   (symbol (lib_id "power:GND") (at 29.21 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efc76431-cab9-46eb-8cc1-7e47cc7cfbfb)
-    (property "Reference" "#PWR020" (at 29.21 55.245 0)
+    (property "Reference" "#PWR033" (at 29.21 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 29.21 53.34 0)
@@ -2569,9 +2488,6 @@
     (pin "1" (uuid 73295dfb-eac8-4250-925e-03bbd54d3ea3))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR020") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR033") (unit 1)
         )
@@ -2582,10 +2498,10 @@
   (symbol (lib_id "robot-cortex:DF52-8S-0.8H(21)") (at 23.495 73.025 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f20ef161-9afe-4339-9d71-18c7b792802f)
-    (property "Reference" "U3" (at 22.86 56.515 0)
+    (property "Reference" "U7" (at 22.86 56.515 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DF52-5S-0.8H(21)" (at 22.86 59.055 0)
+    (property "Value" "DF52-8S-0.8H(21)" (at 22.86 59.055 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "robot-cortex:DF52-8S-0.8H(21)" (at 20.955 93.345 0)
@@ -2606,9 +2522,6 @@
     (pin "9" (uuid 69e466b8-d1da-4097-a237-2242c18e3bf4))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "U3") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "U7") (unit 1)
         )
@@ -2619,7 +2532,7 @@
   (symbol (lib_id "power:GND") (at 57.15 40.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9a6ffd5-9ffb-472a-bb49-6f3473d6d54a)
-    (property "Reference" "#PWR022" (at 57.15 46.355 0)
+    (property "Reference" "#PWR038" (at 57.15 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 44.45 0)
@@ -2634,9 +2547,6 @@
     (pin "1" (uuid 433a134d-7be4-4a0c-8c52-3e86c6b545b0))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR038") (unit 1)
         )
@@ -2647,7 +2557,7 @@
   (symbol (lib_id "robot-cortex:Capacitor") (at 81.28 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fac7827e-3c41-45c5-9a67-c61c48e24731)
-    (property "Reference" "C4" (at 83.82 36.195 0)
+    (property "Reference" "C19" (at 83.82 36.195 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 81.915 38.735 0)
@@ -2663,9 +2573,6 @@
     (pin "2" (uuid 5ff636fe-7e7f-40c9-97d0-6fa0cb9b3ef9))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "C4") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "C19") (unit 1)
         )
@@ -2676,7 +2583,7 @@
   (symbol (lib_id "power:GND") (at 17.145 85.725 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc474e89-7d40-402a-9530-08cc7e49771d)
-    (property "Reference" "#PWR07" (at 17.145 92.075 0)
+    (property "Reference" "#PWR032" (at 17.145 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 17.145 90.17 0)
@@ -2691,9 +2598,6 @@
     (pin "1" (uuid 5c8241e4-aa39-4921-9d8e-5e1a99fb2651))
     (instances
       (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37/f0bc1f65-be22-4560-b9a6-e8d351c4e4ea"
           (reference "#PWR032") (unit 1)
         )
