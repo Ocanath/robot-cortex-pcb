@@ -3593,37 +3593,6 @@
     )
   )
 
-  (symbol (lib_id "foc-pcb:Capacitor") (at 156.21 71.755 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a28f1263-f8e8-4817-978c-661f0116b327)
-    (property "Reference" "C1" (at 155.575 69.215 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100nF" (at 155.575 74.295 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "robot-cortex:C_0402_1005Metric" (at 155.2448 75.565 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 156.21 71.755 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eba0144c-bee9-403c-801b-66e37300cc18))
-    (pin "2" (uuid 40c6cc71-5a35-4a87-8031-b219f4d71ba1))
-    (instances
-      (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "C1") (unit 1)
-        )
-      )
-      (project "foc-pcb"
-        (path "/2b52ab19-a93e-4439-8602-a1380e4825c0"
-          (reference "C3") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "foc-pcb:Capacitor") (at 100.965 199.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a771c516-5c2a-430f-9302-134f83d7e387)
@@ -3680,6 +3649,32 @@
       (project "foc-pcb"
         (path "/2b52ab19-a93e-4439-8602-a1380e4825c0"
           (reference "#PWR029") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "foc-pcb:Resistor") (at 156.21 71.755 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ad7bca85-e6cd-4369-b595-91ce496db4f0)
+    (property "Reference" "R2" (at 154.94 72.39 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "4.7k" (at 152.4 74.295 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "robot-cortex:R_0402_1005Metric" (at 161.29 59.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 156.21 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 869fe253-0c05-4022-9115-39351ea81dca))
+    (pin "2" (uuid b67f66e8-4eb0-4e17-9b57-7e6d8fae42a7))
+    (instances
+      (project "robot-cortex"
+        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
+          (reference "R2") (unit 1)
         )
       )
     )
