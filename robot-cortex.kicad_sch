@@ -3413,7 +3413,7 @@
   )
 
   (symbol (lib_id "foc-pcb:TLE9250XSJXUMA1") (at 192.405 31.75 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 4570beac-2e38-40f2-baae-e466a9b34934)
     (property "Reference" "U3" (at 187.96 21.59 0)
       (effects (font (size 1.27 1.27)))
