@@ -1903,10 +1903,6 @@
     (stroke (width 0) (type default))
     (uuid 6341db3e-f1a3-4262-87b7-b6367e4e6912)
   )
-  (wire (pts (xy 95.25 121.666) (xy 95.25 123.19))
-    (stroke (width 0) (type default))
-    (uuid 63acee07-0692-42f7-bf52-5b29d7763fbe)
-  )
   (wire (pts (xy 106.045 203.2) (xy 103.505 203.2))
     (stroke (width 0) (type default))
     (uuid 64dad585-e332-4cf2-9cf7-bcc1d4764d9f)
@@ -1934,10 +1930,6 @@
   (wire (pts (xy 81.28 138.43) (xy 90.932 138.43))
     (stroke (width 0) (type default))
     (uuid 6ab9ac57-fbfb-4094-8d09-3d97d5c1486b)
-  )
-  (wire (pts (xy 95.25 142.24) (xy 95.25 143.51))
-    (stroke (width 0) (type default))
-    (uuid 6d48e80a-a990-4cee-a281-9b711decdf78)
   )
   (wire (pts (xy 81.915 130.175) (xy 81.915 133.35))
     (stroke (width 0) (type default))
@@ -2323,10 +2315,6 @@
     (stroke (width 0) (type default))
     (uuid eabc8d68-b95a-49d4-bc9c-6df838e583b3)
   )
-  (wire (pts (xy 95.25 130.81) (xy 95.25 132.08))
-    (stroke (width 0) (type default))
-    (uuid ed888378-e615-4e8f-b9c7-c9a9fbe807cf)
-  )
   (wire (pts (xy 121.285 264.795) (xy 121.285 266.065))
     (stroke (width 0) (type default))
     (uuid ed96ff41-2c68-4570-b736-8b1ea33e838c)
@@ -2599,10 +2587,6 @@
   (label "D-" (at 315.595 168.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dcf9037b-37b4-4aec-9f96-56f53fb96716)
-  )
-  (label "+5V0" (at 95.25 121.666 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid df39fe3e-5fdd-4fa4-a073-9fc307cc4fbd)
   )
   (label "UART1_DE" (at 208.915 94.615 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2896,41 +2880,6 @@
       (project "foc-pcb"
         (path "/2b52ab19-a93e-4439-8602-a1380e4825c0"
           (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 95.25 151.13 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2b73a48b-0a1b-4fd7-aafc-eb109e426205)
-    (property "Reference" "#PWR068" (at 95.25 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 95.25 156.21 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 95.25 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 95.25 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4a612cfb-5590-4457-a5be-fa4c9c1d5f0b))
-    (instances
-      (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "#PWR068") (unit 1)
-        )
-      )
-      (project "foc-pcb"
-        (path "/2b52ab19-a93e-4439-8602-a1380e4825c0"
-          (reference "#PWR094") (unit 1)
-        )
-      )
-      (project "adapter-encoder-pcb"
-        (path "/f797ebd5-a509-471a-ba0b-2cd9c6e772fd"
-          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3823,42 +3772,6 @@
       (project "foc-pcb"
         (path "/2b52ab19-a93e-4439-8602-a1380e4825c0"
           (reference "#PWR057") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "robot-cortex:R") (at 95.25 147.32 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7005565b-e355-441a-bfa9-06f9c8669f39)
-    (property "Reference" "R20" (at 97.79 149.86 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1k" (at 99.06 147.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "robot-cortex:R_0402_1005Metric" (at 90.17 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 95.25 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4ced2cb4-a7e5-475e-bae4-97a91748acbf))
-    (pin "2" (uuid 7cb319ab-5ef5-4670-8338-c6f506fd147d))
-    (instances
-      (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "R20") (unit 1)
-        )
-      )
-      (project "foc-pcb"
-        (path "/2b52ab19-a93e-4439-8602-a1380e4825c0"
-          (reference "R16") (unit 1)
-        )
-      )
-      (project "adapter-encoder-pcb"
-        (path "/f797ebd5-a509-471a-ba0b-2cd9c6e772fd"
-          (reference "R4") (unit 1)
         )
       )
     )
@@ -5059,42 +4972,6 @@
       (project "NeuralStimulatorAndRecorder"
         (path "/e01a8152-20cc-44b1-9878-3e8af43bcf61"
           (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "robot-cortex:R") (at 95.25 127 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid dc288968-dd0d-4bd1-a205-67b5a6896a0f)
-    (property "Reference" "R18" (at 97.79 129.54 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1k" (at 99.06 127 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "robot-cortex:R_0402_1005Metric" (at 90.17 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 95.25 127 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0599a46e-bfa6-4724-b09e-04caab00a37a))
-    (pin "2" (uuid 7dbe283b-8af3-41fe-bd6b-eb7bf83425fc))
-    (instances
-      (project "robot-cortex"
-        (path "/19e4cb9f-d0a4-4ce0-8aa4-5fe95563dc37"
-          (reference "R18") (unit 1)
-        )
-      )
-      (project "foc-pcb"
-        (path "/2b52ab19-a93e-4439-8602-a1380e4825c0"
-          (reference "R8") (unit 1)
-        )
-      )
-      (project "adapter-encoder-pcb"
-        (path "/f797ebd5-a509-471a-ba0b-2cd9c6e772fd"
-          (reference "R2") (unit 1)
         )
       )
     )
